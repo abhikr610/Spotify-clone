@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Noto+Sans+Mono&display=swap');
+
+*{
+    border: 0;
+    padding: 0;
+    /* background-color: black; */
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    box-sizing: border-box;
+}
+.left{
+    border: 2px solid black;
+    width: 25vw;
+}
+.right{
+    border: 0px solid black;
+    width: 75vw;
+}
+.top{
+    display: flex;
+
+}
+#spotifyicon{
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: px;
+    height: 40px;
+}
+#icon-home{
+    margin-top: 0;
+    padding: 0px 15px;
+    height: 55px;
+    width: 25px;
+}
+#icon-search{
+    margin-top: 0;
+    padding: 0px 15px;
+    height: 45px;
+    width: 25px;
+    color: #b3b3b3;
+}
+#icon-home img{
+    height: 25px;
+}
+#icon-search img{
+    height: 25px;
+    color: #b3b3b3;
+}
+#search{
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+}
+img{
+    height: 30px;
+}
+ul{
+    margin-top: 0;
+}
+.home ul li{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+    font-weight: bold;
+}
+#lib-id{
+    height: 75vh;
+}
+#library-logo{
+    /* display: flex; */
+    align-items: center;
+    height: 50px;
+}
+#library-logo img{
+    padding: 10px;
+}
+#li-id{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: grey;
+    font-size: 11px;
+    
+}
+.footer{
+    margin: 10px;
+    display: flex;
+    gap: 17px;
+    position: absolute;
+    bottom: 0;
+    flex-wrap: wrap;
+    bottom: 0;
+}
+.library{
+    position: relative;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vw;
+    background-color: rgb(0, 0, 0, .5);
+}
+.nav svg{
+    color: #b3b3b3;
+    padding: 20px;
+    height: 20px;
+}
+
+.button{
+    background-color: rgb(0, 0, 0, .5);
+    padding: 0px;
+    height: 0px;
+    margin: 0px;
+}
+#login:hover{
+    font-size: 1.01rem;
+    cursor: pointer;
+}
+#signup:hover{
+    font-size: 1.01rem;
+    cursor: pointer;
+}
+#login{
+    font-weight: bold;
+    border-radius: 50px;
+    height: 50px;
+    width: 100px;
+    margin-right: 20px;
+}
+#signup{
+    font-weight: bold;
+    padding: 25px;
+    background-color: #121212;
+}
+.spotify h2{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: 1000;
+}
+.spotify h3{
+    /* margin-top: 0px; */
+    margin: 0 10px;
+}
+.spotify p{
+    margin-top: 0;
+    margin: 10px;
+    font-size: 13px;
+    color: #a7a7a7;
+    font-weight: bolder;
+}
+.card-container{
+    /* border: 1px solid red; */
+    height: 320px;
+    margin: 20px;
+    margin-right: 0;
+    width: 200px;
+}
+.card-container img{
+    height: 173px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.spotify-playlist{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+}
+.spotify-playlist a{
+    font-size: 13px;
+    font-weight: 1000;
+    margin-right: 13px;
+    color: #a7a7a7;
+}
+.spotify-playlist h2{
+    margin: 10px;
+}
+.spotify{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    max-height: 70vh;
+}
